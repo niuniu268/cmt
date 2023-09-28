@@ -1,0 +1,110 @@
+2023-02-14 20:20:40,799 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2023-02-14 20:20:40,799 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2023-02-14 20:20:40,799 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2023-02-14 20:20:40,799 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2023-02-14 20:20:40,798 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2023-02-14 20:20:40,799 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2023-02-14 20:20:40,798 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2023-02-14 20:20:40,798 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1640)
+	at java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2023-02-14 21:31:14,694 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-02-14 21:31:14,694 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-02-14 21:31:14,696 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-02-14 21:31:14,696 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-02-14 21:31:16,273 INFO Load instance extension handler []
+
+2023-02-14 21:31:24,195 INFO Client connection 20.18.7.10:8080#true connect
+
+2023-02-14 21:31:24,206 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos.naming.serviceName', ephemeral=true, revision=0}, 20.18.7.10:8080#true
+
+2023-02-14 21:31:54,227 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='nacos.naming.serviceName', ephemeral=true, revision=1}, ip: {"ip":"20.18.7.10","port":8080,"healthy":false,"cluster":"DEFAULT","extendDatum":{"customInstanceId":"20.18.7.10#8080#DEFAULT#DEFAULT_GROUP@@nacos.naming.serviceName"},"lastHeartBeatTime":1676406684206,"metadataId":"20.18.7.10:8080:DEFAULT"}
+
+2023-02-14 21:31:54,227 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos.naming.serviceName', ephemeral=true, revision=1}, 20.18.7.10:8080#true
+
+2023-02-14 21:31:56,371 INFO Client connection 20.18.7.10:8080#true disconnect, remove instances and subscribers
+
+2023-02-14 21:32:24,019 INFO Client connection 192.168.1.72:50238#true connect
+
+2023-02-14 21:32:24,118 INFO Client connection 192.168.1.72:8081#true connect
+
+2023-02-14 21:32:24,119 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.1.72:8081#true
+
+2023-02-14 21:32:38,686 INFO Client connection 192.168.1.72:50239#true connect
+
+2023-02-14 21:32:38,773 INFO Client connection 192.168.1.72:8088#true connect
+
+2023-02-14 21:32:38,773 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='orderservice', ephemeral=true, revision=0}, 192.168.1.72:8088#true
+
+2023-02-14 21:33:35,235 INFO Client connection 192.168.1.72:56990#true connect
+
+2023-02-14 21:33:35,328 INFO Client connection 192.168.1.72:8082#true connect
+
+2023-02-14 21:33:35,328 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, 192.168.1.72:8082#true
+
+2023-02-14 21:33:45,932 WARN namespace : public, [DEFAULT_GROUP@@nacos.naming.serviceName] services are automatically cleaned
+
+2023-02-14 21:34:19,242 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, 192.168.1.72:8081#true
+
+2023-02-14 21:34:19,282 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='orderservice', ephemeral=true, revision=1}, 192.168.1.72:8088#true
+
+2023-02-14 21:34:19,343 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, 192.168.1.72:8082#true
+
+2023-02-14 21:34:33,379 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-02-14 21:34:33,384 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-02-14 21:34:33,702 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1681)
+	at java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)

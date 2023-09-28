@@ -1,0 +1,22 @@
+---
+- hosts: localhost
+  gather_facts: true
+  tasks:
+    - name: Add ourselves to Docker group
+      shell: 'usermod -aG docker vagrant'
+      become: yes
+
+    - name: Install Ansible
+      ansible.builtin.pip:
+        name: ansible
+        extra_args: --user
+
+    - name: Install Molecule
+      ansible.builtin.pip:
+        name: "molecule[lint]"
+        extra_args: --user
+
+    - name: Install Docker support for Molecule
+      ansible.builtin.pip:
+        name: molecule-docker
+        extra_args: --user

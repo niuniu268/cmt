@@ -1,0 +1,15 @@
+webservers:
+  hosts:
+    192.168.56.10:
+      ansible_user: vagrant
+      ansible_ssh_private_key_file: "/home/gg/tmp/vagrant-test/.vagrant/machines/webserver/virtualbox/private_key"
+      custom_open_port:
+        - 80
+        - 443
+databases:
+  hosts:
+    192.168.56.11:
+      ansible_user: vagrant
+      ansible_ssh_private_key_file: "/home/gg/tmp/vagrant-test/.vagrant/machines/database/virtualbox/private_key"
+      custom_open_port:
+        - 3306

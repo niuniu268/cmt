@@ -1,0 +1,460 @@
+2023-02-18 00:42:57,642 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:42:57,675 INFO Connection check task start
+
+2023-02-18 00:42:58,992 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:42:58,992 INFO Connection check task end
+
+2023-02-18 00:43:02,002 INFO Connection check task start
+
+2023-02-18 00:43:02,002 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:02,002 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:02,002 INFO Connection check task end
+
+2023-02-18 00:43:05,012 INFO Connection check task start
+
+2023-02-18 00:43:05,012 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:05,013 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:05,013 INFO Connection check task end
+
+2023-02-18 00:43:08,536 INFO Connection check task start
+
+2023-02-18 00:43:08,536 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:08,536 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:08,536 INFO Connection check task end
+
+2023-02-18 00:43:11,546 INFO Connection check task start
+
+2023-02-18 00:43:11,547 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:11,547 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:11,547 INFO Connection check task end
+
+2023-02-18 00:43:14,547 INFO Connection check task start
+
+2023-02-18 00:43:14,547 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:14,548 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:14,548 INFO Connection check task end
+
+2023-02-18 00:43:16,088 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m4s395ms).
+
+2023-02-18 00:43:17,548 INFO Connection check task start
+
+2023-02-18 00:43:17,548 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:17,548 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:17,548 INFO Connection check task end
+
+2023-02-18 00:43:20,558 INFO Connection check task start
+
+2023-02-18 00:43:20,558 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:20,558 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:20,558 INFO Connection check task end
+
+2023-02-18 00:43:23,560 INFO Connection check task start
+
+2023-02-18 00:43:23,560 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:23,560 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:23,560 INFO Connection check task end
+
+2023-02-18 00:43:26,560 INFO Connection check task start
+
+2023-02-18 00:43:26,560 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:26,561 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:26,561 INFO Connection check task end
+
+2023-02-18 00:43:29,571 INFO Connection check task start
+
+2023-02-18 00:43:29,571 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:29,571 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:29,571 INFO Connection check task end
+
+2023-02-18 00:43:32,574 INFO Connection check task start
+
+2023-02-18 00:43:32,574 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:32,574 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:32,574 INFO Connection check task end
+
+2023-02-18 00:43:35,584 INFO Connection check task start
+
+2023-02-18 00:43:35,584 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:35,584 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:35,584 INFO Connection check task end
+
+2023-02-18 00:43:38,591 INFO Connection check task start
+
+2023-02-18 00:43:38,591 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:38,592 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:38,592 INFO Connection check task end
+
+2023-02-18 00:43:41,598 INFO Connection check task start
+
+2023-02-18 00:43:41,598 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:41,598 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:41,598 INFO Connection check task end
+
+2023-02-18 00:43:44,605 INFO Connection check task start
+
+2023-02-18 00:43:44,606 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:44,606 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:44,606 INFO Connection check task end
+
+2023-02-18 00:43:47,616 INFO Connection check task start
+
+2023-02-18 00:43:47,616 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:47,616 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:47,616 INFO Connection check task end
+
+2023-02-18 00:43:50,621 INFO Connection check task start
+
+2023-02-18 00:43:50,621 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 00:43:50,621 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 00:43:50,621 INFO Connection check task end
+
+2023-02-18 10:11:07,990 INFO Connection check task start
+
+2023-02-18 10:11:07,991 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:07,991 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:07,991 INFO Connection check task end
+
+2023-02-18 10:11:11,001 INFO Connection check task start
+
+2023-02-18 10:11:11,001 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:11,001 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:11,001 INFO Connection check task end
+
+2023-02-18 10:11:13,402 INFO Connection check task start
+
+2023-02-18 10:11:13,402 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:13,402 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:13,402 INFO Connection check task end
+
+2023-02-18 10:11:16,412 INFO Connection check task start
+
+2023-02-18 10:11:16,412 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:16,412 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:16,413 INFO Connection check task end
+
+2023-02-18 10:11:19,416 INFO Connection check task start
+
+2023-02-18 10:11:19,416 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:19,416 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:19,416 INFO Connection check task end
+
+2023-02-18 10:11:22,418 INFO Connection check task start
+
+2023-02-18 10:11:22,418 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:22,419 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:22,419 INFO Connection check task end
+
+2023-02-18 10:11:25,426 INFO Connection check task start
+
+2023-02-18 10:11:25,426 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:25,427 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:25,427 INFO Connection check task end
+
+2023-02-18 10:11:28,437 INFO Connection check task start
+
+2023-02-18 10:11:28,437 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:28,437 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:28,437 INFO Connection check task end
+
+2023-02-18 10:11:29,857 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h27m43s759ms).
+
+2023-02-18 10:11:31,437 INFO Connection check task start
+
+2023-02-18 10:11:31,437 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:31,438 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:31,438 INFO Connection check task end
+
+2023-02-18 10:11:34,438 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:34,438 INFO Connection check task start
+
+2023-02-18 10:11:34,438 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:34,438 INFO Connection check task end
+
+2023-02-18 10:11:37,446 INFO Connection check task start
+
+2023-02-18 10:11:37,447 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:37,447 INFO Connection check task end
+
+2023-02-18 10:11:37,446 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:40,455 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:40,455 INFO Connection check task start
+
+2023-02-18 10:11:40,455 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:40,455 INFO Connection check task end
+
+2023-02-18 10:11:43,465 INFO Connection check task start
+
+2023-02-18 10:11:43,465 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:43,465 INFO Connection check task end
+
+2023-02-18 10:11:43,465 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:46,467 INFO Connection check task start
+
+2023-02-18 10:11:46,467 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:46,467 INFO Connection check task end
+
+2023-02-18 10:11:46,467 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:49,468 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:49,468 INFO Connection check task start
+
+2023-02-18 10:11:49,469 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:49,469 INFO Connection check task end
+
+2023-02-18 10:11:52,470 INFO Connection check task start
+
+2023-02-18 10:11:52,470 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:52,470 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:52,470 INFO Connection check task end
+
+2023-02-18 10:11:55,470 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:11:55,470 INFO Connection check task start
+
+2023-02-18 10:11:55,470 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:55,470 INFO Connection check task end
+
+2023-02-18 10:11:58,474 INFO Connection check task start
+
+2023-02-18 10:11:58,474 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:11:58,474 INFO Connection check task end
+
+2023-02-18 10:11:58,474 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:02,001 WARN HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m32s144ms).
+
+2023-02-18 10:40:03,317 INFO Connection check task start
+
+2023-02-18 10:40:03,318 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:03,318 INFO Connection check task end
+
+2023-02-18 10:40:03,318 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:06,759 INFO Connection check task start
+
+2023-02-18 10:40:06,759 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:06,760 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:06,760 INFO Connection check task end
+
+2023-02-18 10:40:09,761 INFO Connection check task start
+
+2023-02-18 10:40:09,761 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:09,761 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:09,761 INFO Connection check task end
+
+2023-02-18 10:40:12,771 INFO Connection check task start
+
+2023-02-18 10:40:12,771 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:12,771 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:12,771 INFO Connection check task end
+
+2023-02-18 10:40:15,774 INFO Connection check task start
+
+2023-02-18 10:40:15,774 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:15,774 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:15,774 INFO Connection check task end
+
+2023-02-18 10:40:28,009 INFO Connection check task start
+
+2023-02-18 10:40:28,090 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:28,161 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:28,254 INFO Connection check task end
+
+2023-02-18 10:40:31,818 INFO Connection check task start
+
+2023-02-18 10:40:31,818 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:31,819 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:31,819 INFO Connection check task end
+
+2023-02-18 10:40:34,820 INFO Connection check task start
+
+2023-02-18 10:40:34,820 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:34,820 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:34,820 INFO Connection check task end
+
+2023-02-18 10:40:37,824 INFO Connection check task start
+
+2023-02-18 10:40:37,824 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:37,824 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:37,824 INFO Connection check task end
+
+2023-02-18 10:40:40,828 INFO Connection check task start
+
+2023-02-18 10:40:40,828 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:40,828 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:40,828 INFO Connection check task end
+
+2023-02-18 10:40:43,832 INFO Connection check task start
+
+2023-02-18 10:40:43,832 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:43,832 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:43,832 INFO Connection check task end
+
+2023-02-18 10:40:44,919 INFO [capacityManagement] start correct usage
+
+2023-02-18 10:40:44,921 INFO [MapperManager] findMapper dataSource: derby, tableName: group_capacity
+
+2023-02-18 10:40:44,930 INFO [MapperManager] findMapper dataSource: derby, tableName: tenant_capacity
+
+2023-02-18 10:40:44,930 INFO [capacityManagement] end correct usage, cost: 0.011288596s
+
+2023-02-18 10:40:45,063 WARN clearConfigHistory start
+
+2023-02-18 10:40:45,070 WARN clearConfigHistory, getBeforeStamp:2023-01-19 10:40:45.0, pageSize:1000
+
+2023-02-18 10:40:45,071 INFO [MapperManager] findMapper dataSource: derby, tableName: his_config_info
+
+2023-02-18 10:40:46,841 INFO Connection check task start
+
+2023-02-18 10:40:46,841 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:46,841 INFO Connection check task end
+
+2023-02-18 10:40:46,841 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:49,841 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:49,841 INFO Connection check task start
+
+2023-02-18 10:40:49,842 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:49,842 INFO Connection check task end
+
+2023-02-18 10:40:52,846 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:52,846 INFO Connection check task start
+
+2023-02-18 10:40:52,846 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:52,846 INFO Connection check task end
+
+2023-02-18 10:40:55,847 INFO Connection check task start
+
+2023-02-18 10:40:55,848 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:55,848 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:55,848 INFO Connection check task end
+
+2023-02-18 10:40:58,848 INFO Connection check task start
+
+2023-02-18 10:40:58,848 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:40:58,848 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:40:58,848 INFO Connection check task end
+
+2023-02-18 10:41:01,855 INFO Connection check task start
+
+2023-02-18 10:41:01,855 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:41:01,857 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:41:01,857 INFO Connection check task end
+
+2023-02-18 10:41:04,859 INFO Connection check task start
+
+2023-02-18 10:41:04,859 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:41:04,860 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:41:04,860 INFO Connection check task end
+
+2023-02-18 10:41:07,860 INFO Connection check task start
+
+2023-02-18 10:41:07,860 INFO ConnectionMetrics, totalCount = 0, detail = {long_connection=0, long_polling=0}
+
+2023-02-18 10:41:07,860 INFO Long connection metrics detail ,Total count =0, sdkCount=0,clusterCount=0
+
+2023-02-18 10:41:07,860 INFO Connection check task end
+

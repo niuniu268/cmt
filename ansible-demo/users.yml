@@ -1,0 +1,19 @@
+---
+users:
+- username: "gg"
+  state: present
+  password: '$6$qE/xSsdbW7YwGE2X$fvYRArrIxydlGPCCmz1MV4KvVw2J4.oSSpRViina5UcFdR3.BsEL2OU4ShjjK1SOl4XO8YwDO6Sg9mb2i.sqq0'
+  groups:
+    - sudo
+  ssh_pubkey: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIADJw3G5uhSmciKkha92MwN9V/Aw3g1kUzCAwo1+1wab"
+- username: "bob"
+  state: present
+  password: '$6$qE/xSsdbW7YwGE2X$fvYRArrIxydlGPCCmz1MV4KvVw2J4.oSSpRViina5UcFdR3.BsEL2OU4ShjjK1SOl4XO8YwDO6Sg9mb2i.sqq0'
+  groups:
+  ssh_pubkey: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIADJw3G5uhSmciKkha92MwN9V/Aw3g1kUzCAwo1+1wab"
+- username: "alice"
+  state: present
+  password: '$6$qE/xSsdbW7YwGE2X$fvYRArrIxydlGPCCmz1MV4KvVw2J4.oSSpRViina5UcFdR3.BsEL2OU4ShjjK1SOl4XO8YwDO6Sg9mb2i.sqq0'
+  groups:
+    - sudo
+  ssh_pubkey: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIADJw3G5uhSmciKkha92MwN9V/Aw3g1kUzCAwo1+1wab"

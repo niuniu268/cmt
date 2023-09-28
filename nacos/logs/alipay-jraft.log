@@ -1,0 +1,10 @@
+2023-02-16 10:06:29,956 INFO Deleting snapshot /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_2.
+
+2023-02-16 10:06:29,960 INFO Renaming /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_2.
+
+2023-02-16 10:07:46,453 INFO Deleting snapshot /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_2.
+
+2023-02-16 10:07:46,453 INFO Renaming /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_2.
+
+2023-02-16 11:55:02,956 INFO Connection disconnected: /192.168.1.72:53873
+

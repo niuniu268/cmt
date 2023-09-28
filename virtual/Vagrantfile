@@ -1,0 +1,38 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+if Vagrant.has_plugin?('vagrant-vbguest') then
+  config.vbguest.auto_update = false
+end
+
+
+config.vm.provider "virtualbox" do |h, override|
+  h.gui = false
+  h.memory = 1024
+  h.cpus = 2
+  h.customize ["modifyvm", :id, "--nested-hw-virt", "on"]
+
+  override.vm.network "private_network", type: "dhcp"
+end
+
+config.vm.synced_folder '.', '/vagrant', disabled: true
+config.vm.box_check_update = false
+config.ssh.forward_agent = true
+config.ssh.insert_key = false
+config.ssh.extra_args = ["-o", "HostkeyAlgorithms=+ssh-rsa", "-o", "PubkeyAcceptedAlgorithms=+ssh-rsa"]
+
+config.vm.define "kvm", primary: true do |kvm|
+  kvm.vm.box = "generic/ubuntu2204"
+  kvm.vm.hostname = "kvm"
+
+  kvm.vm.provision "shell", inline: <<-SHELL
+    apt update
+    apt install -y cockpit cockpit-machines
+    apt install openjdk-11-jre-headless
+    apt install podman
+  SHELL
+end
+
+end

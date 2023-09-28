@@ -1,0 +1,17 @@
+ntp_timezone: Europe/Stockholm
+
+firewall_allowed_tcp_ports:
+  - "22"
+  - "3306"
+firewall_allowed_udp_ports: []
+
+mysql_root_password: root
+mysql_databases:
+  - name: gitea
+    encoding: latin1
+    collation: latin1_general_ci
+mysql_users:
+  - name: gitea
+    host: "%"
+    password: gitea
+    priv: "gitea.*:ALL"

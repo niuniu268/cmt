@@ -1,0 +1,16 @@
+version: '3'
+services:
+  flask:
+    build: .
+    ports:
+      - "5000:5000"
+    command: flask run --host=0.0.0.0 --port=5000
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    volumes:
+      - local_data:/data
+
+volumes:
+  local_data:

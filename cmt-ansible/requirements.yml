@@ -1,0 +1,5 @@
+- src: geerlingguy.firewall
+- src: geerlingguy.ntp
+- src: geerlingguy.mysql
+- src: geerlingguy.docker
+- src: do1jlr.gitea

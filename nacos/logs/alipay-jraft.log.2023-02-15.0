@@ -1,0 +1,120 @@
+2023-02-15 14:43:02,467 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2023-02-15 14:43:02,682 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2023-02-15 14:43:02,925 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeDescribeSignalHandler] loading.
+
+2023-02-15 14:43:02,926 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.NodeMetricsSignalHandler] loading.
+
+2023-02-15 14:43:02,926 INFO SPI service [com.alipay.sofa.jraft.util.JRaftSignalHandler - com.alipay.sofa.jraft.ThreadPoolMetricsSignalHandler] loading.
+
+2023-02-15 14:43:02,930 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2023-02-15 14:43:02,937 INFO The number of active nodes increment to 1.
+
+2023-02-15 14:43:03,727 INFO Starts FSMCaller successfully.
+
+2023-02-15 14:43:03,737 WARN No data for snapshot reader /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot.
+
+2023-02-15 14:43:03,738 INFO Node <naming_persistent_service_v2/192.168.1.72:7848> target priority value has changed from: 0, to: -1.
+
+2023-02-15 14:43:03,771 INFO Node <naming_persistent_service_v2/192.168.1.72:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.1.72:7848, oldConf=.
+
+2023-02-15 14:43:03,773 INFO Node <naming_persistent_service_v2/192.168.1.72:7848> start vote and grant vote self, term=1.
+
+2023-02-15 14:43:03,846 INFO Save raft meta, path=/Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=2, votedFor=192.168.1.72:7848, cost time=54 ms
+
+2023-02-15 14:43:03,847 INFO Node <naming_persistent_service_v2/192.168.1.72:7848> become leader of group, term=2, conf=192.168.1.72:7848, oldConf=.
+
+2023-02-15 14:43:03,850 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2023-02-15 14:43:03,853 WARN RPC server is not started in RaftGroupService.
+
+2023-02-15 14:43:03,853 INFO Start the RaftGroupService successfully.
+
+2023-02-15 14:43:03,862 INFO onLeaderStart: term=2.
+
+2023-02-15 14:43:03,879 INFO The number of active nodes increment to 2.
+
+2023-02-15 14:43:03,964 INFO Starts FSMCaller successfully.
+
+2023-02-15 14:43:03,965 WARN No data for snapshot reader /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_instance_metadata/snapshot.
+
+2023-02-15 14:43:03,965 INFO Node <naming_instance_metadata/192.168.1.72:7848> target priority value has changed from: 0, to: -1.
+
+2023-02-15 14:43:03,966 INFO Node <naming_instance_metadata/192.168.1.72:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.1.72:7848, oldConf=.
+
+2023-02-15 14:43:03,967 INFO Node <naming_instance_metadata/192.168.1.72:7848> start vote and grant vote self, term=1.
+
+2023-02-15 14:43:03,995 INFO Save raft meta, path=/Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=2, votedFor=192.168.1.72:7848, cost time=28 ms
+
+2023-02-15 14:43:03,997 INFO Node <naming_instance_metadata/192.168.1.72:7848> become leader of group, term=2, conf=192.168.1.72:7848, oldConf=.
+
+2023-02-15 14:43:03,998 WARN RPC server is not started in RaftGroupService.
+
+2023-02-15 14:43:03,998 INFO Start the RaftGroupService successfully.
+
+2023-02-15 14:43:03,998 INFO onLeaderStart: term=2.
+
+2023-02-15 14:43:04,004 INFO The number of active nodes increment to 3.
+
+2023-02-15 14:43:04,047 WARN Channel in TRANSIENT_FAILURE state: 192.168.1.72:7848.
+
+2023-02-15 14:43:04,048 WARN Channel in SHUTDOWN state: 192.168.1.72:7848.
+
+2023-02-15 14:43:04,075 INFO Starts FSMCaller successfully.
+
+2023-02-15 14:43:04,076 WARN No data for snapshot reader /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_service_metadata/snapshot.
+
+2023-02-15 14:43:04,076 INFO Node <naming_service_metadata/192.168.1.72:7848> target priority value has changed from: 0, to: -1.
+
+2023-02-15 14:43:04,078 INFO Node <naming_service_metadata/192.168.1.72:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.1.72:7848, oldConf=.
+
+2023-02-15 14:43:04,079 INFO Node <naming_service_metadata/192.168.1.72:7848> start vote and grant vote self, term=1.
+
+2023-02-15 14:43:04,100 INFO Save raft meta, path=/Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=2, votedFor=192.168.1.72:7848, cost time=20 ms
+
+2023-02-15 14:43:04,100 INFO Node <naming_service_metadata/192.168.1.72:7848> become leader of group, term=2, conf=192.168.1.72:7848, oldConf=.
+
+2023-02-15 14:43:04,102 WARN RPC server is not started in RaftGroupService.
+
+2023-02-15 14:43:04,102 INFO Start the RaftGroupService successfully.
+
+2023-02-15 14:43:04,104 INFO onLeaderStart: term=2.
+
+2023-02-15 16:24:42,559 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:42,559 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:42,560 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:42,560 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:42,560 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:42,562 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:44,060 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:44,060 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:46,406 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:46,406 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:46,692 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:46,693 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:49,221 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:49,222 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:52,484 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 16:24:52,486 ERROR Fail to connect 192.168.1.72:7848, remoting exception: java.util.concurrent.ExecutionException: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception.
+
+2023-02-15 17:58:58,756 INFO Deleting snapshot /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_2.
+
+2023-02-15 17:58:58,756 INFO Renaming /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /Users/Mac/Downloads/cmt/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_2.
+

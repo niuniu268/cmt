@@ -1,0 +1,94 @@
+---
+- name: "Play 1: set up all hosts"
+  hosts: all
+  become: yes
+  vars_files:
+    - "./users.yml"
+  tasks:
+    - name: "Upgrade all the packages"
+      ansible.builtin.apt:
+        name: "*"
+        state: latest
+        update_cache: yes
+
+    - name: "Install some tools and a firewall"
+      ansible.builtin.apt:
+        name:
+          - neovim
+          - nano
+          - sudo
+          - ufw
+
+    - name: "Start and enable ufw service"
+      ansible.builtin.systemd:
+        name: ufw
+        state: started
+        enabled: yes
+
+    - name: "Open port 22 in firewall"
+      community.general.ufw:
+        port: 22
+        proto: tcp
+        rule: allow
+
+    - name: "Open custom port in firewall"
+      community.general.ufw:
+        proto: tcp
+        rule: allow
+        port: "{{ item }}"
+      loop: "{{ custom_open_port }}"
+
+    - name: "Set firewall default policy"
+      community.general.ufw:
+        state: enabled
+        policy: deny
+
+    - name: "Create all the needed users"
+      ansible.builtin.user:
+        name: "{{ item.username }}"
+        groups: "{{ item.groups }}"
+        password: "{{ item.password }}"
+        state: "{{ item.state }}"
+      loop: "{{ users }}"
+    - name: "Copy the user's pubkey to authorized_keys"
+      ansible.builtin.lineinfile:
+        path: "/home/{{ item.username }}/.ssh/authorized_keys"
+        line: "{{ item.ssh_pubkey }}"
+        state: present
+        create: yes
+      loop: "{{ users }}"
+
+- name: "Play 2: install Caddy server"
+  hosts: webservers
+  become: yes
+  tasks:
+    - name: "Install dependencies"
+      ansible.builtin.apt:
+        name:
+          - debian-keyring 
+          - debian-archive-keyring 
+          - apt-transport-https
+        state: present
+    
+    - name: "Add caddy pubkey to keyring"
+      ansible.builtin.copy:
+        remote_src: no
+        src: "caddy_pubkey.gpg"
+        dest: "/usr/share/keyrings/caddy-stable-archive-keyring.gpg" 
+    
+    - name: "Add caddy repo to system"
+      ansible.builtin.get_url:
+        url: "https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt"
+        dest: "/etc/apt/sources.list.d/caddy-stable.list"
+
+    - name: "Install caddy"
+      ansible.builtin.apt:
+        name: "caddy"
+        state: present
+        update_cache: yes
+
+    - name: "Emable and start caddy.service"
+      ansible.builtin.systemd:
+        name: "caddy"
+        state: started
+        enabled: yes

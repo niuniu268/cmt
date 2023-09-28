@@ -1,0 +1,84 @@
+2023-02-15 14:43:02,408 INFO Initializes the Raft protocol, raft-config info : {}
+
+2023-02-15 14:43:02,850 INFO ========= The raft protocol is starting... =========
+
+2023-02-15 14:43:02,885 INFO ========= The raft protocol start finished... =========
+
+2023-02-15 14:43:02,905 INFO create raft group : naming_persistent_service_v2
+
+2023-02-15 14:43:03,864 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='192.168.1.72:7848', term=2, raftClusterInfo=[192.168.1.72:7848]}
+
+2023-02-15 14:43:03,879 INFO create raft group : naming_instance_metadata
+
+2023-02-15 14:43:03,998 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='192.168.1.72:7848', term=2, raftClusterInfo=[192.168.1.72:7848]}
+
+2023-02-15 14:43:04,004 INFO create raft group : naming_service_metadata
+
+2023-02-15 14:43:04,105 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='192.168.1.72:7848', term=2, raftClusterInfo=[192.168.1.72:7848]}
+
+2023-02-15 16:24:42,185 ERROR Fail to refresh raft metadata info for group : naming_instance_metadata, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:255)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-02-15 16:24:42,188 ERROR Fail to refresh raft metadata info for group : naming_service_metadata, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:255)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-02-15 16:24:42,477 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2023-02-15 16:24:42,549 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2023-02-15 16:24:42,549 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2023-02-15 16:24:42,549 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: io.grpc.StatusRuntimeException: UNAVAILABLE: io exception]
+
+2023-02-15 16:24:42,560 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:42,560 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:42,560 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:42,560 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:42,562 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:42,562 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:44,060 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:44,060 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:46,406 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:46,406 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:46,693 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:46,693 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:49,221 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:49,222 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:52,485 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+
+2023-02-15 16:24:52,486 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Fail to init channel to 192.168.1.72:7848]
+

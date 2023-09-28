@@ -1,0 +1,22 @@
+---
+- hosts: all,!localhost
+  gather_facts: no
+
+  pre_tasks:
+    - name: Waiting for connection
+      ansible.builtin.wait_for_connection:
+        timeout: 1800
+    - name: Gathering facts
+      setup:
+
+  roles:
+    - { role: geerlingguy.firewall, become: yes }
+    - { role: geerlingguy.ntp, become: yes }
+
+# Multi-machine setup of Gitea
+- import_playbook: install-mysql.yml
+- import_playbook: install-gitea.yml
+
+# Development on the Ansible controller node
+- import_playbook: install-ansible.yml
+- import_playbook: install-docker.yml

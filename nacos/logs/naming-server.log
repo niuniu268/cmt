@@ -1,0 +1,54 @@
+2023-02-15 14:43:02,291 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2023-02-15 14:43:02,291 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2023-02-15 14:43:02,292 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2023-02-15 14:43:02,292 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2023-02-15 14:43:04,322 INFO Load instance extension handler []
+
+2023-02-15 14:43:08,354 INFO Client connection 192.168.1.72:55621#true connect
+
+2023-02-15 14:43:42,032 INFO Client connection 192.168.1.72:55621#true disconnect, remove instances and subscribers
+
+2023-02-15 14:45:22,150 INFO Client connection 192.168.1.72:51926#true connect
+
+2023-02-15 14:45:22,272 INFO Client connection 192.168.1.72:8088#true connect
+
+2023-02-15 14:45:22,278 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='orderservice', ephemeral=true, revision=0}, 192.168.1.72:8088#true
+
+2023-02-15 14:46:48,101 INFO Client connection 192.168.1.72:56228#true connect
+
+2023-02-15 14:46:48,183 INFO Client connection 192.168.1.72:8081#true connect
+
+2023-02-15 14:46:48,184 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=0}, 192.168.1.72:8081#true
+
+2023-02-15 14:46:58,005 INFO Client connection 192.168.1.72:56229#true connect
+
+2023-02-15 14:46:58,123 INFO Client connection 192.168.1.72:8082#true connect
+
+2023-02-15 14:46:58,123 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=1}, 192.168.1.72:8082#true
+
+2023-02-15 14:49:34,527 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='orderservice', ephemeral=true, revision=1}, 192.168.1.72:8088#true
+
+2023-02-15 14:49:34,624 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=2}, 192.168.1.72:8081#true
+
+2023-02-15 14:49:34,728 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='userservice', ephemeral=true, revision=3}, 192.168.1.72:8082#true
+
+2023-02-15 14:50:07,205 INFO Client connection 192.168.1.72:8081#true disconnect, remove instances and subscribers
+
+2023-02-15 14:50:07,205 INFO Client connection 192.168.1.72:8088#true disconnect, remove instances and subscribers
+
+2023-02-15 14:50:07,205 INFO Client connection 192.168.1.72:8082#true disconnect, remove instances and subscribers
+
+2023-02-15 14:50:12,205 INFO Client connection 192.168.1.72:56229#true disconnect, remove instances and subscribers
+
+2023-02-15 14:50:12,205 INFO Client connection 192.168.1.72:56228#true disconnect, remove instances and subscribers
+
+2023-02-15 14:50:12,206 INFO Client connection 192.168.1.72:51926#true disconnect, remove instances and subscribers
+
+2023-02-15 14:51:33,888 WARN namespace : public, [DEFAULT_GROUP@@orderservice] services are automatically cleaned
+
+2023-02-15 14:51:33,888 WARN namespace : public, [DEFAULT_GROUP@@userservice] services are automatically cleaned
+
