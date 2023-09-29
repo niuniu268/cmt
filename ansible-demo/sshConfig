@@ -1,0 +1,33 @@
+Host 192.168.1.72
+  HostName 192.168.1.72
+  User niuniu
+
+Host 192.168.1.6
+  HostName 192.168.1.6
+  User niuniu
+  IdentityFile ~/.ssh/fedora_rsa
+  StrictHostKeyChecking no
+
+Host VM_Fedora
+  HostName 192.168.1.140
+  User niuniu
+  
+
+Host bastion
+    User ubuntu
+    HostName 91.197.43.170
+    IdentityFile ~/.ssh/id_rsa_gs
+
+Host web-server-1
+    User ubuntu
+    HostName 10.0.65.174
+    ProxyCommand ssh -q -W %h:%p bastion
+    StrictHostKeyChecking no
+    IdentityFile ~/.ssh/id_rsa_gs
+
+Host web-server-2
+    User ubuntu
+    HostName 10.0.65.250
+    ProxyCommand ssh -q -W %h:%p bastion
+    StrictHostKeyChecking no
+    IdentityFile ~/.ssh/id_rsa_gs
